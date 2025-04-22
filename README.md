@@ -20,21 +20,22 @@ This is a cross-platform Electron application that runs **locally** on your syst
 
 ## 🛠 Tech Stack
 
-- **Electron** – Desktop app framework
-- **Puppeteer** – Headless browser automation
-- **Node.js + Express** – Local server for backend logic
-- **React + MUI** – Frontend interface
-- **MongoDB Atlas** – Stores scraped applicant data
+- **Electron** – Desktop app framework  
+- **Puppeteer** – Headless browser automation  
+- **Node.js + Express** – Local server for backend logic  
+- **React + MUI** – Frontend interface  
+- **MongoDB Atlas** – Stores scraped applicant data  
 
 ---
 
+## 🧰 Setup Instructions
 
 ### 🔧 1. Clone the Repository
 
 ```bash
 git clone https://github.com/venkateshh-srs/Zscraper.git
 cd Zscraper
-
+```
 
 ---
 
@@ -56,17 +57,7 @@ npm install
 
 ---
 
-### 🛠️ 4. Add Your MongoDB Atlas URL
-
-Make sure your `.env` file at the root has the correct MongoDB connection string:
-
-```env
-DB_URL="your_mongodb_atlas_connection_string"
-```
-
----
-
-### ⚙️ 5. Build the Frontend
+### ⚙️ 4. Build the Frontend
 
 ```bash
 npm run build
@@ -74,7 +65,7 @@ npm run build
 
 ---
 
-### 🚀 6. Run the App in Development Mode
+### 🚀 5. Run the App in Development Mode
 
 ```bash
 npm run dev:electron
@@ -117,7 +108,7 @@ npx electron-packager . Zscraper --platform=darwin --arch=arm64 --overwrite
 zip -r Zscraper-mac.zip Zscraper-darwin-arm64/
 ```
 
-- Output folder: `Zscraper-darwin-arm64`
+- Output folder: `Zscraper-darwin-arm64`  
 - Final zip: `Zscraper-mac.zip`
 
 ---
@@ -129,7 +120,7 @@ npx electron-packager . Zscraper --platform=win32 --arch=x64 --overwrite
 tar.exe -a -c -f Zscraper-windows.zip Zscraper-win32-x64
 ```
 
-- Output folder: `Zscraper-win32-x64`
+- Output folder: `Zscraper-win32-x64`  
 - Final zip: `Zscraper-windows.zip`
 
 > 💡 If `tar.exe` is not available, use the Windows "Send to → Compressed (zipped) folder" option.
@@ -137,4 +128,5 @@ tar.exe -a -c -f Zscraper-windows.zip Zscraper-win32-x64
 ---
 
 Happy scraping! 🧃
-```
+
+---
