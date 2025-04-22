@@ -1,4 +1,3 @@
-```markdown
 # 🔍 LinkedIn Job Applicants Scraper (Electron App)
 
 This is a cross-platform Electron application that runs **locally** on your system and lets you scrape **job applicants’ details** from jobs **you have posted on LinkedIn**.
@@ -44,7 +43,7 @@ This is a cross-platform Electron application that runs **locally** on your syst
 ```bash
 git clone https://github.com/your-username/Zscraper.git
 cd Zscraper
-```
+
 
 ---
 
