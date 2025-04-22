@@ -24,24 +24,15 @@ This is a cross-platform Electron application that runs **locally** on your syst
 - **Puppeteer** – Headless browser automation
 - **Node.js + Express** – Local server for backend logic
 - **React + MUI** – Frontend interface
-- **MongoDB Atlas** – Stores scraped applicant data (optional)
+- **MongoDB Atlas** – Stores scraped applicant data
 
 ---
 
-## 📦 Setup Instructions
-
-### ✅ Prerequisites
-
-- [Node.js](https://nodejs.org/) (v18 or later recommended)
-- [Git](https://git-scm.com/)
-- MongoDB Atlas account (or any MongoDB instance)
-
----
 
 ### 🔧 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Zscraper.git
+git clone https://github.com/venkateshh-srs/Zscraper.git
 cd Zscraper
 
 
